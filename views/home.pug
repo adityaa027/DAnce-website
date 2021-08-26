@@ -1,0 +1,54 @@
+extends base.pug
+
+block scripts
+  script(src='/static/iindex.js')
+
+block style
+     style
+          include ../static/style.css
+
+block content 
+    section#introsection
+        div Welcome to your dance academy 
+        div.small Dance is passion 
+
+    section#missionsection
+        h2 Our mission
+        div.card
+            h3 Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png") 
+
+                div.card-content 
+                    p This is the best dance academy of this universe cats
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png") 
+
+                div.card-content 
+                    p This is the best dance academy of this universe cats
+        div.card
+            h3 Expert teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png") 
+
+                div.card-content 
+                    p This is the best dance academy of this universe cats
+
+    section#sponsersection
+        h3 Our sponsers
+        div#sponser
+            img(src="/static/img/apple1.jfif", alt ="sponser img", class="spimage")
+            img(src="/static/img/skype.png", alt ="sponser img", class="spimage")
+            img(src="/static/img/hp.jpg", alt ="sponser img", class="spimage")
+            //- img(src="/static/img/microsoft logo.png", alt ="sponser img", class="spimage") 
+
+    footer#footer 
+        | Our footer here 
+    
+    script
+      include ../static/index.js    

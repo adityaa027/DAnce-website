@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); 
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;    
+}
+#logo img{
+    height: 30px;
+    filter: invert(1); 
+}
+#navbar{
+    background-color: teal;
+    padding: 13px 14px;
+    font-family: 'Akaya Kanadaka', cursive;
+    /* font-weight: bold;  */
+    background-color: #3c2c2c;
+}        
+    
+#navbar ul{
+    display: flex;
+    /* justify-content: center;    */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 35px;
+    color: white;
+    font-size: 1.4rem;
+}
+#navbar li a:hover{
+    color: gray;
+}
+#introsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 49px;
+    background: url('../static/bg.jpg') center/cover no-repeat;
+    height: 450px;
+    font-family: 'Courgette', cursive;
+    padding-bottom: 50px;
+    /* background-color: red;  */
+}
+#introsection div.small{
+    font-size: 2.4rem;
+    padding: 107;
+}
+#missionsection{
+    height: 300px;
+    margin: auto;
+    width: 77%;
+    display: block;
+    
+}  
+#missionsection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-size: 2.4rem;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.card{
+    display: inline-block;
+    border: 2px solid rgb(161, 140, 18);
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 200px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img{
+    height: 119px;
+    padding: 0 14px;
+    margin: 5px 1px;
+}
+.card-img img{
+    height: inherit;
+    padding: 0 14px;
+}
+.card-content {
+    padding: 0px 6px;
+}
+.card-content p {
+    font-size: 16px;
+}
+#sponsersection{
+    height: 300px;
+    background-color: #413639af;
+}
+#sponsersection h3{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 2rem;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+#sponser{
+    height: 110px;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+.spimage{
+    height: 80%;
+    margin: 20px 106px;
+    
+}
+#footer{
+    background-color: black;
+    height: 100px;
+
+}
